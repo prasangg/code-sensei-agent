@@ -39,5 +39,7 @@ def load_llm():
     )
     return llm
 
-if __name__ == "__main__":
-    load_llm()
+# to download the model, uncomment the following line
+
+# if __name__ == "__main__":
+#     load_llm()

@@ -15,8 +15,8 @@ repo_id = "TheBloke/Mistral-7B-Instruct-v0.2-GGUF"
 model_filename = "mistral-7b-instruct-v0.2.Q4_K_M.gguf"
 temperature = 0.7
 n_ctx: int = 4096
-n_batch: int = 512,
-n_gpu_layers: int = 50,
+n_batch: int = 512
+n_gpu_layers: int = 50
 
 def load_llm():
 

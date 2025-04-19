@@ -14,7 +14,8 @@ def main():
     chain = prompt | llm
 
     # 3. Pass it directly to the model
-    response = llm(chain)
+    response = chain.invoke({"transcript": transcript_text})  # ✅ this is correct
+    print(response)
 
     print("🧠 Response:\n", response["choices"][0]["text"])
 

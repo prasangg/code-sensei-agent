@@ -3,7 +3,7 @@ from utils.fetch_transcript import get_transcript
 from utils.prompt_engineering import build_prompt
 
 def main():
-    video_url = "https://www.youtube.com/watch?v=XYZ"
+    video_url = "https://www.youtube.com/watch?v=TjthKf7Mc_8"
     transcript_text = get_transcript(video_url)
 
     llm = load_llm()
